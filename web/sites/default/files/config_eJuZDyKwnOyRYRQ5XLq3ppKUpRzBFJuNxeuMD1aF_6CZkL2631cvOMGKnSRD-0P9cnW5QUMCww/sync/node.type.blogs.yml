@@ -1,0 +1,17 @@
+uuid: dd31831e-daf1-46e5-8f68-e1d538b8fbeb
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Blogs
+type: blogs
+description: 'This is test content type'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

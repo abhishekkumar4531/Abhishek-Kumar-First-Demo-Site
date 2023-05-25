@@ -1,0 +1,18 @@
+uuid: 2ecc3f8b-4595-407f-ba7d-2d5a235d09cd
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Latest News'
+type: latest_news
+description: 'You can find here all the latest news..'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: true

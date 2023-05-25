@@ -1,0 +1,28 @@
+uuid: 8008db6b-8323-47ad-b21c-49244d907a5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.author.body
+    - field.field.node.author.field_author_image
+    - field.field.node.author.field_author_which_artical_
+    - field.field.node.author.field_published_content
+    - node.type.author
+  module:
+    - user
+id: node.author.teaser
+targetEntityType: node
+bundle: author
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  field_author_image: true
+  field_author_which_artical_: true
+  field_published_content: true

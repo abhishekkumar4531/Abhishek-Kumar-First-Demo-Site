@@ -1,0 +1,14 @@
+uuid: c7a90bda-ac9a-405f-be29-8cdb2a68deff
+langcode: en
+status: true
+dependencies: {  }
+name: custom_width
+label: 'Custom width'
+effects:
+  467aa3b9-7281-4aad-b88b-b6d9c7f611b6:
+    uuid: 467aa3b9-7281-4aad-b88b-b6d9c7f611b6
+    id: image_resize
+    weight: 1
+    data:
+      width: 200
+      height: 180

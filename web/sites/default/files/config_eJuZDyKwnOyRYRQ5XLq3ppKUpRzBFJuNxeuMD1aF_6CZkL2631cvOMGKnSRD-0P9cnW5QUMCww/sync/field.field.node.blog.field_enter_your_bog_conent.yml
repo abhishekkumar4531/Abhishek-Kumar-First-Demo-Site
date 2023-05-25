@@ -1,0 +1,19 @@
+uuid: e9b5ce69-9e0b-4da3-aeb4-8535e7de6619
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_enter_your_bog_conent
+    - node.type.blog
+id: node.blog.field_enter_your_bog_conent
+field_name: field_enter_your_bog_conent
+entity_type: node
+bundle: blog
+label: 'Enter your bog conent'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

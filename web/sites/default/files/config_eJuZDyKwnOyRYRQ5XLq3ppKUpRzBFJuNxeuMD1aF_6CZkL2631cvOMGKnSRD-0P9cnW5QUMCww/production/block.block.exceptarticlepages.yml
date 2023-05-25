@@ -1,0 +1,35 @@
+uuid: 246a542d-f3c6-4743-97f5-a5801ec87267
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:24d66f50-b211-4855-8ed8-52444c5cccb9'
+  module:
+    - block_content
+    - node
+  theme:
+    - bootstrap
+id: exceptarticlepages
+theme: bootstrap
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:24d66f50-b211-4855-8ed8-52444c5cccb9'
+settings:
+  id: 'block_content:24d66f50-b211-4855-8ed8-52444c5cccb9'
+  label: 'Except article pages'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      author: author
+      blog: blog
+      page: page

@@ -1,0 +1,30 @@
+uuid: 141aa42f-f9d5-4919-9699-ba581dd0f837
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:page_block:0158cf64-4f64-4916-837b-eec55a102042'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap
+id: pagedesc
+theme: bootstrap
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:0158cf64-4f64-4916-837b-eec55a102042'
+settings:
+  id: 'block_content:0158cf64-4f64-4916-837b-eec55a102042'
+  label: 'Page desc'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /home

@@ -1,0 +1,19 @@
+uuid: bd6e9814-7c73-47ed-a086-3a37e5b55f99
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.page_block
+    - field.storage.block_content.field_description
+id: block_content.page_block.field_description
+field_name: field_description
+entity_type: block_content
+bundle: page_block
+label: Description
+description: 'A small random text explaning the page'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,38 @@
+uuid: 22406404-38fa-493d-921f-0fc12f48aa90
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.farmers.body
+    - field.field.node.farmers.field_artical
+    - field.field.node.farmers.field_farmer_image
+    - field.field.node.farmers.field_farmer_name
+    - field.field.node.farmers.field_farming_type_
+    - node.type.farmers
+  module:
+    - text
+    - user
+id: node.farmers.teaser
+targetEntityType: node
+bundle: farmers
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_artical: true
+  field_farmer_image: true
+  field_farmer_name: true
+  field_farming_type_: true

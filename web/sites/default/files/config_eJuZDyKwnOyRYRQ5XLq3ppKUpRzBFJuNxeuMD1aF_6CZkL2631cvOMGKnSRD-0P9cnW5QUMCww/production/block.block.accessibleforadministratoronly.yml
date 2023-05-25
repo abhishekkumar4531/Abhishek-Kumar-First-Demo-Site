@@ -1,0 +1,33 @@
+uuid: 33aa8fb5-ba92-488a-8142-70cda1233671
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b7e072cb-accb-4bad-ab67-ca6917fdedf1'
+  module:
+    - block_content
+    - user
+  theme:
+    - bootstrap
+id: accessibleforadministratoronly
+theme: bootstrap
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:b7e072cb-accb-4bad-ab67-ca6917fdedf1'
+settings:
+  id: 'block_content:b7e072cb-accb-4bad-ab67-ca6917fdedf1'
+  label: 'Accessible for administrator only'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      administrator: administrator

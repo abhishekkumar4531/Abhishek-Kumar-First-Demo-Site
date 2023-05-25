@@ -1,0 +1,19 @@
+uuid: 502cb7d8-6076-4203-841f-3db02a8b1b78
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_artical_author
+field_name: field_artical_author
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

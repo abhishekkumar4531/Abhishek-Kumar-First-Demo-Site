@@ -1,0 +1,19 @@
+uuid: 1fc1c32d-dccd-4ada-8c5b-172b5587608d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_description
+    - node.type.blogs
+id: node.blogs.field_description
+field_name: field_description
+entity_type: node
+bundle: blogs
+label: Description
+description: 'Enter your description within 100 words.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

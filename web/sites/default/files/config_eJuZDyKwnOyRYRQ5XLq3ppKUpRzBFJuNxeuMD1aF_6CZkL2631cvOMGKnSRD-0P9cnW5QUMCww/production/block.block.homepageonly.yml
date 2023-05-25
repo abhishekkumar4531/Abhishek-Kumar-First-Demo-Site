@@ -1,0 +1,38 @@
+uuid: 0512e91f-de5c-401f-8131-5954d6185863
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:d7cf5cc5-fcce-4d70-b232-524564adc4ce'
+  module:
+    - block_content
+    - node
+    - system
+  theme:
+    - bootstrap
+id: homepageonly
+theme: bootstrap
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:d7cf5cc5-fcce-4d70-b232-524564adc4ce'
+settings:
+  id: 'block_content:d7cf5cc5-fcce-4d70-b232-524564adc4ce'
+  label: 'Home page only'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /home
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      page: page

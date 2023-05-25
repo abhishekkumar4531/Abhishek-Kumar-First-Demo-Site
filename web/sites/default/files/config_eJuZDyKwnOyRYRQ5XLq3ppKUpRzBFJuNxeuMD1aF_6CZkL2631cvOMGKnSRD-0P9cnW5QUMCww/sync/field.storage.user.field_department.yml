@@ -1,0 +1,33 @@
+uuid: 082b09d1-e7f4-4f14-ab4f-b2583cfc1081
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - user
+id: user.field_department
+field_name: field_department
+entity_type: user
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: IT
+      label: IT
+    -
+      value: HR
+      label: HR
+    -
+      value: MGMT
+      label: MGMT
+    -
+      value: Accounts
+      label: Accounts
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

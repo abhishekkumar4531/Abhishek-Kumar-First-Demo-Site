@@ -1,0 +1,22 @@
+uuid: 6596862d-c716-4a50-9dae-d54b9741bcce
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: this_is_responsible_creating_url_for_blog_type_content_
+label: 'This is responsible creating url for Blog type content.'
+type: 'canonical_entities:node'
+pattern: 'blog-list/[node:title]'
+selection_criteria:
+  3e93e7ce-f7d0-4352-b17f-157ef4388fde:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 3e93e7ce-f7d0-4352-b17f-157ef4388fde
+    context_mapping:
+      node: node
+    bundles:
+      blogs: blogs
+selection_logic: and
+weight: -5
+relationships: {  }

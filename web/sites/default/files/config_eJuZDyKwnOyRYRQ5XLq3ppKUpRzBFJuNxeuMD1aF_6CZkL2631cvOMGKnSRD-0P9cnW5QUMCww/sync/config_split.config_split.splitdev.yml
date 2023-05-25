@@ -1,0 +1,20 @@
+uuid: cd97bee7-d1b1-4658-b6e3-ce29e534ae4d
+langcode: en
+status: true
+dependencies: {  }
+id: splitdev
+label: splitdev
+description: ''
+weight: 0
+folder: sites/default/files/config_eJuZDyKwnOyRYRQ5XLq3ppKUpRzBFJuNxeuMD1aF_6CZkL2631cvOMGKnSRD-0P9cnW5QUMCww/development
+module:
+  devel: 0
+  devel_generate: 0
+theme: {  }
+blacklist:
+  - core.date_format.long
+  - core.date_format.olivero_medium
+graylist:
+  - system.menu.devel
+graylist_dependents: true
+graylist_skip_equal: true

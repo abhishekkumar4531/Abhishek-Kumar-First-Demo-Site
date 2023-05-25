@@ -1,5 +1,5 @@
 /vendor
 /web/modules
 /web/core
-/web/sites/default/files
+# /web/sites/default/files
 /web/themes

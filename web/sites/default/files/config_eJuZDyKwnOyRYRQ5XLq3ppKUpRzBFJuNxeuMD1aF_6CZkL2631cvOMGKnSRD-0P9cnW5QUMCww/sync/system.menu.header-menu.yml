@@ -1,8 +1,0 @@
-uuid: 2eea6e55-71fd-40f0-a82e-ddcd13b62252
-langcode: en
-status: true
-dependencies: {  }
-id: header-menu
-label: 'Header menu'
-description: 'Custom header menu'
-locked: false

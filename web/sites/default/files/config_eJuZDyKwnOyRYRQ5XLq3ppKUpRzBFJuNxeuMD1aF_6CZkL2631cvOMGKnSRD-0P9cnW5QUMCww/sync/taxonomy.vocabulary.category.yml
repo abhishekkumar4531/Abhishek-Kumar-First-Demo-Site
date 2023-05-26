@@ -1,8 +1,0 @@
-uuid: 5a8c8631-89e8-4909-99e0-b00ee96719d4
-langcode: en
-status: true
-dependencies: {  }
-name: Category
-vid: category
-description: 'News category'
-weight: 0

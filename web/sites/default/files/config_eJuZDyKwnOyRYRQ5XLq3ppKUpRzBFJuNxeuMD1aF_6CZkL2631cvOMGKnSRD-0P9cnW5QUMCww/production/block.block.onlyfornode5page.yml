@@ -1,0 +1,30 @@
+uuid: 7f5d62aa-c323-4f23-831f-3b8a83c7d035
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:dc66d4c1-1f40-434d-8541-beec1070849c'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap
+id: onlyfornode5page
+theme: bootstrap
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:dc66d4c1-1f40-434d-8541-beec1070849c'
+settings:
+  id: 'block_content:dc66d4c1-1f40-434d-8541-beec1070849c'
+  label: 'Only for node/5 page'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /node/5

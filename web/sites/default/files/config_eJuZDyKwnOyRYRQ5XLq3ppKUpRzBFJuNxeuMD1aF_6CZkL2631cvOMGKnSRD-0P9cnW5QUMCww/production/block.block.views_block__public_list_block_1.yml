@@ -1,0 +1,24 @@
+uuid: b8f01dab-4e91-4287-87f5-4c30281ff1d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.public_list
+  module:
+    - views
+  theme:
+    - bootstrap
+id: views_block__public_list_block_1
+theme: bootstrap
+region: footer
+weight: 0
+provider: null
+plugin: 'views_block:public_list-block_1'
+settings:
+  id: 'views_block:public_list-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

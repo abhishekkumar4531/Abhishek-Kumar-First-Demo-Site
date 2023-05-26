@@ -1,0 +1,14 @@
+/vendor
+/web/modules
+/web/core
+# /web/sites/default/files
+/web/themes
+/web/sites/default/files/2023-05
+/web/sites/default/files/config_eJuZDyKwnOyRYRQ5XLq3ppKUpRzBFJuNxeuMD1aF_6CZkL2631cvOMGKnSRD-0P9cnW5QUMCww/sync
+/web/sites/default/files/css
+/web/sites/default/files/default_images
+/web/sites/default/files/inline-images
+/web/sites/default/files/js
+/web/sites/default/files/php
+/web/sites/default/files/styles
+/web/sites/default/settings.php
